@@ -1,0 +1,39 @@
+html,
+body {
+	font: 14px 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+md-toolbar h3 {
+	margin: auto;
+	font-weight: 500;
+}
+
+md-list-item > button {
+	width: 100%;
+	text-align: left;
+}
+
+#content {
+	padding: 5px 40px 0 40px;
+}
+
+.avatar {
+	position: relative;
+	width: 128px;
+	height: 128px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0;
+	vertical-align: middle;
+	zoom: .7;
+	-webkit-transform: scale(.7);
+	-ms-transform: scale(.7);
+	-o-transform: scale(.7);
+	transform: translateZ(0);
+
+}
